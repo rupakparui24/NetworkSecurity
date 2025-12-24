@@ -46,7 +46,7 @@ class NetworkDataExctract:
             raise NetworkSecurityException(e, sys)
         
 if __name__ == '__main__':
-    database = "RupakParui"
+    database = "RupakParuiML"
     file_path = "Network_Data\phisingData.csv"
     collection = "network_data"
 
