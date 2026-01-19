@@ -22,6 +22,8 @@ from sklearn.ensemble import (
     GradientBoostingClassifier,
     RandomForestClassifier,
 )
+import dagshub
+dagshub.init(repo_owner='rupakparui24', repo_name='NetworkSecurity', mlflow=True)
 class ModelTrainer:
     def __init__(self, model_trainer_config: ModelTrainerConfig,
                  data_transformation_artifact: DataTransformationArtifact):
